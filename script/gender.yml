@@ -642,12 +642,14 @@
 - type: or
   considerate:
     - traveler
+    - journeyworker
   inconsiderate:
     journeywoman: female
     journeyman: male
 - type: or
   considerate:
     - travelers
+    - journeyworkers
   inconsiderate:
     journeywomen: female
     journeymen: male
