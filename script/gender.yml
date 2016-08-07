@@ -245,6 +245,18 @@
     fishermen: male
 - type: or
   considerate:
+    - crew member
+  inconsiderate:
+    crewwoman: female
+    crewman: male
+- type: or
+  considerate:
+    - crew members
+  inconsiderate:
+    crewwomen: female
+    crewmen: male
+- type: or
+  considerate:
     - kinship
     - community
   inconsiderate:
