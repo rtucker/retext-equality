@@ -828,6 +828,20 @@
     craftsman: male
 - type: or
   considerate:
+    - tradesperson
+    - skilled worker
+  inconsiderate:
+    tradeswoman: female
+    tradesman: male
+- type: or
+  considerate:
+    - tradespersons
+    - skilled workers
+  inconsiderate:
+    tradeswomen: female
+    tradesmen: male
+- type: or
+  considerate:
     - presenter
     - entertainer
   inconsiderate:
