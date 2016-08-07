@@ -655,6 +655,18 @@
     journeymen: male
 - type: or
   considerate:
+    - electrician
+  inconsiderate:
+    wirewoman: female
+    wireman: male
+- type: or
+  considerate:
+    - electricians
+  inconsiderate:
+    wirewomen: female
+    wiremen: male
+- type: or
+  considerate:
     - godparent
     - elder
     - patron
